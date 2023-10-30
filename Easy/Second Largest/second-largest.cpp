@@ -12,7 +12,7 @@ public:
 	int print2largest(int arr[], int n) {
 	    int max=arr[0];
 	    int s_max=-1;
-	    for(int i=0; i<n; i++){
+	    for(int i=1; i<n; i++){
 	        if(arr[i]>max){
 	            s_max = max;
 	            max = arr[i];
